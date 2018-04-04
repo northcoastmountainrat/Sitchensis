@@ -9,12 +9,6 @@ This needs to be tested in the full program
 import vpython as vp
 import pdb
 
-###################################################
-###Improvements####################################
-
-#Add smoothing function for normals along sharp conic edges
-#Make frustum plotting faster (possibly rotated and translate points before creating shape)
-
 #####################################################
 ####  Frustum creation functions ####################
    
