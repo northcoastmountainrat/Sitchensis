@@ -32,46 +32,6 @@ intFiles = False #Do you want to output intermediate calculation files??
 runErrorScan = True
 initErCheck = True
 
-##############     IMPOROVEMENTS        ###########################################
-
-#!!!!!!!!!!!!Check datatypes of all columns !!!!!!!!#####
-#Move outlier error scan to another a function in scan functions, move appropriate import statements
-#is is possible to move the plotting code to the plot functions?? I'm not sure....
-#In the error scan add a catch for min segments segments not referenced to parent segment, or issue a warning and use parent segment
-
-#Error scan should check for input types and coerce them to what I need, let user know if it can't because of differente data types in data. Also need to check for missing values in cols where they are needed
-#Add in conditionals that don't run the rest of the script if there are scanning errors.
-    #This could prompt the user to save and restart program instead of breaking the programming. 
-#There are some miskeys that are hard to track down due to this.
-#Run basic error checking and ask user to continue or not
-#I need to deal with burls using a partial ellipsoid
-#make this handle .xlsm files too
-#User inputs names they want to use, these are then mapped to the names I've hard coded in and then remapped back at the end. This obviates the need to check for a notes column and have the specificrenameNotes function in the importFunctions functuion
-
-#Linear interp on Azimuths needs to figure out how to deal with 360 = 0 problem. Ex interp between 358 and 4 degrees gives 270 something, it need to give something around 2, perhaps is more then 180 degrees off convert larger number to number-360 then add 360 at end if less than zero. 
-
-#don't send error if there is raduis but not diameter
-#don't send error if there is top z and base z instead of top ht and base ht
-#If there is a midsegment appendage from a limb and with a  base height, decide whether to use the height or the distance and ref to node.
-#This program is inflexible if the reference to ground is anything but 'G'.
-#Make tree creation faster (try making a frustum class and cloning it instead of using compound objects)
-#Organize files into one folder for git hub and delete camputer-specific code.
-#Smooth out frusta
-#stop program breaks for errors, make it continue and export all it can.
-# put shperes in the junctions
-#import full file name including extension so I can import .xlsm files.
-#Make plotting a seperate routine outside of this script to pare down on code in the mainBodyScript
-#popup box to select outputs
-#dialog boxwes that ask for user input need to be in a function within the importFunctions script. It should output the chosen directory and file.
-#Right now I will bump up agains a webGl limitation on the number of vertices if there are more than ~600 branches in a single tree. This can be fixed by making a list of compounded branhces, each that is no longer than 300. The code currently breaks it into two, I'd need to make it break the branches into batches of 300 and the remainder.
-
-#I need a re-run the last tree command!!!
-
-""" Make sure this can run on any computer, you will need to ask for a list of filenames or something of the sort """
-"""Ask user to specify column names they want to use in file, you will also need to have all the needed packages in one place"""
-""" make an _init_.py file and a setup.py file that load needed modules if they are not already present"""
-
-
 ###################################
 #### Create output directory ######
 ###################################
