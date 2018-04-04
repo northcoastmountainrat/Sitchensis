@@ -43,9 +43,9 @@ def buildfaces(axis, incs, topR, baseR):  #This builds vertices and normals into
             p2 = vp.vec(0.0, baseR*costheta, baseR*sintheta)
             p3 = vp.vec(0.0, baseR*newcostheta, baseR*newsintheta)
             p4 = vp.vec(length, topR*newcostheta, topR*newsintheta)
-            vertexList = vertexList + [[p0,p1,p4],[p1,p2,p3],[p1,p3,p4],[p5,p3,p2]] #First three = triangle from top center to edge, Next 6 are two triangles along slopd of conic, last three are triangle from edge to center of conic base
+            vertexList = vertexList + [[p0,p1,p4],[p1,p2,p3],[p1,p3,p4],[p5,p3,p2]] #First three = triangle from top center to edge, Next 6 are two triangles along slope of conic, last three are triangle from edge to center of conic base
             
-            #Normals bitches!
+            #Normals!
             n0 = vp.vec(1,0,0); n4 = vp.vec(-1,0,0)
             n2 = getNorm(p1,p2,p3)
             n3 = getNorm(p1,p3,p4)
