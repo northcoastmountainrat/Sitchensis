@@ -27,7 +27,7 @@ fileName = fullFileName.rsplit('/')[-1] #Excludes path to file
 treeName = fileName.rsplit('.')[0] #For input file (excludes '.xlsx')
 
 #Output options
-suppressScatter = False
+suppressScatter = True
 intFiles = False #Do you want to output intermediate calculation files??
 runErrorScan = True
 initErCheck = True
@@ -184,27 +184,9 @@ def labelButton(r): #This controls whether or not to display labels
             label.visible = False
         for label in brLabs:
             label.visible = False
-
-def keyInput(evt):  #To improve this I need to determine a calculation vector and move scene center relative to that not to absolute x and y
-    global cent, shift
-    if evt.key == 'up':
-        if cent < 100:
-            cent = cent + 5
-        vsl.value = cent
-    elif evt.key == 'down':
-        if cent > 0:
-            cent = cent - 5
-        vsl.value = cent
-    elif evt.key == 'left':
-        shift = shift + 2
-    elif evt.key == 'right':
-        shift = shift - 2
-        
-scene.bind('keydown', keyInput)
-    
-#Setup widgets (vert and horizontal slider, menue, and radio button). Different widgets are bound to functions in vPythonFunctions.py
-vsl = vp.slider(pos = scene.title_anchor, vertical = True,length = 800, bind=vertSlide, value = 50, right = 5, top = 5, min = 0, max = 100)
-scene.caption = "Vary the rotation speed:\n"
+   
+#Setup widgets (Horizontal slider, menu, and radio button). Different widgets are bound to functions in vPythonFunctions.py
+scene.caption = "\nVary the rotation speed:\n"
 hsl = vp.slider(pos = scene.caption_anchor, min = 0, max = 500, value = 0.001, length = 800, bind=setSpeed, right=15)
 scene.append_to_caption('\nSelect the tree map to display\n')     
 scene.append_to_caption('           ')
@@ -220,6 +202,8 @@ elif mapType == "full map":
     mapChoices = vp.menu(choices=['trunk map', 'segment map', 'full map'], selected = 'full map', index = 0, bind=treeDisplay )
 scene.append_to_caption('                 ')              
 radBut = vp.radio(bind=labelButton, text='display labels') # text to right of button
+
+scene.append_to_caption('            Scroll to zoom, shift + left click to pan!\n')   
 
 ###Maybe make a button that moves tree back to zero rotation.####
 
@@ -249,7 +233,6 @@ pf.axes((-5,-5,0))
 while True:
     vp.rate(100)
     if running:
-        scene.center = vp.vec(0,shift,cent)
         trunk.rotate(angle=speed*1e-4, axis=vp.vec(0,0,1), origin=vp.vector(0,0,0)) 
         for tr in trunkLabs:
             tr.rotate(angle=speed*1e-4, axis=vp.vec(0,0,1), origin=vp.vector(0,0,0))
