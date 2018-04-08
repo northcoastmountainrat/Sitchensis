@@ -27,7 +27,7 @@ fileName = fullFileName.rsplit('/')[-1] #Excludes path to file
 treeName = fileName.rsplit('.')[0] #For input file (excludes '.xlsx')
 
 #Output options
-suppressScatter = True
+suppressScatter = False
 intFiles = False #Do you want to output intermediate calculation files??
 runErrorScan = True
 initErCheck = True
