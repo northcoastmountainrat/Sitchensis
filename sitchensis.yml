@@ -1,0 +1,21 @@
+name: sitchensis
+channels:
+  - vpython
+  - defaults
+dependencies:
+  - matplotlib=2.1.0=py36h11b4b9c_0
+  - numpy=1.13.3=py36ha320f96_0
+  - numpydoc=0.7.0=py36ha25429e_0
+  - pandas=0.22.0=py36h6538335_0
+  - pandoc=1.19.2.1=hb2460c7_1
+  - python=3.6.3=h3b118a2_4
+  - python-dateutil=2.6.1=py36h509ddcb_1
+  - scipy=0.19.1=py36h7565378_3
+  - tk=8.6.7=vc14hb68737d_1
+  - twine=1.11.0=py36_0
+  - vpython=7.4.3=py36_0
+  - xlrd=1.1.0=py36h1cb58dc_1
+  - xlsxwriter=1.0.2=py36hf723b7d_0
+  - pip:
+    - tables==3.4.2
+prefix: C:\Users\rdk10\AppData\Local\Continuum\anaconda3\envs\sitchensis
