@@ -11,18 +11,17 @@ python-based program to error check and calculate geometry of  3D tree crown-map
 
 ### How do I get set up? ###
 
-* At present this is just a script in python so you will need to intall a version of python with a lot of packages. I recommend the 
-* anaconda installation. 
+* At present this is just a script in python so you will need to intall a version of python with a lot of packages. I recommend the anaconda installation. 
 
 * Configuration: I don't know what this means yet
 
-* Dependencies: Python 3.x, xlrd, pandas 0.21.0 or greater, numpy, matplotlib, tkinter, sys, os, scipy, xlsxwriter, visual, numbers, all .py files in the Sitchensis folder
+* Dependencies: Python 3.x, xlrd, pandas 0.21.0 or greater, numpy, matplotlib, tkinter, sys, os, scipy, xlsxwriter, vpython, numbers, all .py files in the Sitchensis folder
 
 * Database configuration: I don't know what this means yet
 
 * How to run: Use the provided excel template to enter data. Save data into any directory. Run the "MainBodyScript.py" to navigate to file in directory. Outputs are placed into new subfolder called "Sitchensis outputs"
 
-* How to run tests: What do you get when you cross and elephant and a rhino? HellifIknow
+* How to run tests: To test that the code is configured properly and working upload the clean data file in the "Sitchensis_tests" folder called "Mothership.xlsx." Run the MainBodyScript.py and navigate to this file. If configured properly a folder with outputs will be created called "SitchensisOutputs." In it will be two log files. Windows of scatterplots should pop up for outlier scanning. Once these are closed, a browser window will pop up and render a 3D tree from the excel file. 
 
 * Deployment instructions: I don't know what this means. 
 
