@@ -3,15 +3,13 @@ python-based program to error check and calculate geometry of  3D tree crown-map
 
 ### What is this repository for? ###
 
-* This program will take 3D tree mapping data collected in the field and calculate whole-tree geometry. It will go through several steps
-* along the way to first error check and visualize the data before actually calculating the final numbers. The data are imported from a 
-* single provided excel template for each tree. 
+* This program will take 3D tree mapping data collected in the field and calculate whole-tree geometry. It will go through several steps along the way to first error check and visualize the data before actually calculating the final numbers. The data are imported from a single provided excel template for each tree. 
 
 * Version: 0.0.1
 
 ### How do I get set up? ###
 
-* This package will run with a current installation of conda or miniconda and python>=3.6
+* This package will run with a current installation of conda or miniconda and python>=3.X
 
 * Configuration: For the initial configuration
   * Install anaconda or miniconda
