@@ -33,8 +33,8 @@ python-based program to error check and calculate geometry of  3D tree crown-map
   * Tree model is displayed in a browser window
   
 * Dependencies: 
- - Python 3.x, xlrd, pandas 0.21.0 or greater, numpy, matplotlib, tkinter, sys, os, scipy, xlsxwriter, vpython, numbers, all .py files in the Sitchensis folder
- - Dependencies are automatically downloaded when the package is installed.
+  * Python 3.x, xlrd, pandas 0.21.0 or greater, numpy, matplotlib, tkinter, sys, os, scipy, xlsxwriter, vpython, numbers, all .py files in the Sitchensis folder
+  * Dependencies are automatically downloaded when the package is installed.
 
 * Database configuration: I don't know what this means yet
 
