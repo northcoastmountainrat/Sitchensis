@@ -21,6 +21,8 @@ python-based program to error check and calculate geometry of  3D tree crown-map
     `y`  
     if on a Mac you need a "framework build" of python, you can do this by running as an additional step:  
     `conda install python.app`  
+    more information about this here:  
+    <https://matplotlib.org/faq/osx_framework.html>
 
   * Activate the environment  
      In Windows:  
@@ -32,8 +34,11 @@ python-based program to error check and calculate geometry of  3D tree crown-map
 
 * Test your installation:
   * Upload the data file in the "SitchensisTests" folder called "Mothership_Clean.xlsx"  
-  * Open an Anaconda command prompt end enter  
-  `run_tree`
+  * Open an Anaconda command prompt  
+  PC or Linux users enter  
+  `run_tree`  
+  Mac users enter  
+  `pythonw run_tree`
   * Browse to the directory containing the "Mothership_Clean.xlsx" file and open it
   * If configured properly a folder with outputs will be created called "SitchensisOutputs." In it will be two log files and a calculated output file with the date appended.   
    * Windows of scatterplots should pop up for outlier scanning (currently disabled).
