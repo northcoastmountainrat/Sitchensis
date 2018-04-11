@@ -3,21 +3,18 @@
 Created on Tue Jun  6 13:59:52 2017
 @author: rdk10
 """
-
 import os
 import tkinter as tk
 from tkinter.filedialog import askopenfilename
+from pandas.plotting import scatter_matrix
+import matplotlib.pyplot as plt
+
+import vpython as vp
 
 import sitchensis.ImportFunctions as impF   #Not functional yet
 import sitchensis.TreeCalcs as tc
 import sitchensis.vPythonFunctions as pf
 import sitchensis.ErrorScan as es
-import vpython as vp
-
-
-from pandas.plotting import scatter_matrix
-import matplotlib.pyplot as plt
-
 
 def main():
 	###################################
