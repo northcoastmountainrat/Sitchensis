@@ -30,12 +30,21 @@ python-based program to error check and calculate geometry of  3D tree crown-map
   * Install the package to the environment  
    `pip install git+https://github.com/northcoastmountainrat/Sitchensis`
 
+* Test your installation:
+  * Upload the data file in the "SitchensisTests" folder called "Mothership_Clean.xlsx"  
+  * Open an Anaconda command prompt end enter  
+  `run_tree`
+  * Browse to the directory containing the "Mothership_Clean.xlsx" file and open it
+  * If configured properly a folder with outputs will be created called "SitchensisOutputs." In it will be two log files and a calculated output file with the date appended.   
+   * Windows of scatterplots should pop up for outlier scanning (currently disabled).
+   * Once the scatterplot windows are closed, a browser window will pop up and render a 3D tree from the excel file. 
+
 * How to run the program
   * Use the provided excel template to enter data. Save data into any directory.
   * Open an anaconda command prompt and activate your environemnt as detailed above
   * Type run_tree and enter
   * Browse to the folder with the tree file in it and click open
-  * Close the two scatterplot windows that appear after screening for errors (currently disabled)
+  * Close the two scatterplot windows that appear after screening for errors (currently disabled).
   * Outputs are placed into new subfolder called "Sitchensis outputs"
   * Tree model is displayed in a browser window
   
@@ -44,21 +53,6 @@ python-based program to error check and calculate geometry of  3D tree crown-map
   * Dependencies are automatically downloaded when the package is installed.
   * Dependencies can also be downloaded by creating an environment called 'sitchensis' with the included .yml file  
   `conda env create --file FullFilePath\sitchensis.yml`
-
-* Database configuration: I don't know what this means yet
-
-* How to run tests:   
-   * To test that the code is configured properly and working upload the clean data file in the "SitchensisTests" folder called "Mothership_Clean.xlsx."  
-   * Run the program as described above.  
-   * If configured properly a folder with outputs will be created called "SitchensisOutputs." In it will be two log files and a calculated output file with the date appended.   
-   * Windows of scatterplots should pop up for outlier scanning.  
-   * Once these are closed, a browser window will pop up and render a 3D tree from the excel file. 
-
-### Contribution guidelines ###
-
-* Writing tests: ????
-* Code review: ?????
-* Other guidelines: ????
 
 ### Who do I talk to? ###
 
