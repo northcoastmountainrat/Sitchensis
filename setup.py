@@ -142,7 +142,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'run_tree = sitchensis.MainBodyScript:main',
+            'run_tree = sitchensis.MainBodyScript.py',
         ],
      },
 
