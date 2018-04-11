@@ -14,23 +14,23 @@ python-based program to error check and calculate geometry of  3D tree crown-map
 * This package will run with a current installation of conda or miniconda and python>=3.6
 
 * Configuration: For the initial configuration
-..* Install anaconda or miniconda
-..* Open an anaconda command prompt
-..* Create a new environment with the latest version of python: Ex: if you want to call your environment myEnv then
-... conda create -n myenv python=3.6
-..* Activate the environment
-... activate myenv
-..* Install the package to the environment
-...
+  * Install anaconda or miniconda
+  * Open an anaconda command prompt
+  * Create a new environment with the latest version of python: Ex: if you want to call your environment myEnv then
+    conda create -n myenv python=3.6
+  * Activate the environment
+    activate myenv
+  * Install the package to the environment
+   
 
 * How to run the program
- ..* Use the provided excel template to enter data. Save data into any directory.
- ..* Open an anaconda command prompt and activate your environemnt as detailed above
- ..* Type run_tree and enter
- ..* Browse to the folder with the tree file in it and click open
- ..* Close the two scatterplot windows that appear after screening for errors
- ..* Tree model is displayed in a browser window
- ..* Outputs are placed into new subfolder called "Sitchensis outputs"
+  * Use the provided excel template to enter data. Save data into any directory.
+  * Open an anaconda command prompt and activate your environemnt as detailed above
+  * Type run_tree and enter
+  * Browse to the folder with the tree file in it and click open
+  * Close the two scatterplot windows that appear after screening for errors
+  * Tree model is displayed in a browser window
+  * Outputs are placed into new subfolder called "Sitchensis outputs"
 
 * Dependencies: 
  - Python 3.x, xlrd, pandas 0.21.0 or greater, numpy, matplotlib, tkinter, sys, os, scipy, xlsxwriter, vpython, numbers, all .py files in the Sitchensis folder
