@@ -11,7 +11,7 @@ python-based program to error check and calculate geometry of  3D tree crown-map
 
 * This package will run with a current installation of conda or miniconda and python>=3.X
 
-* Configuration: For the initial configuration
+* Configuration:
   * Install anaconda or miniconda
   * Open an anaconda command prompt
   * Create a new environment with the latest version of python: Ex: if you want to call your environment myEnv then  
