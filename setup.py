@@ -104,7 +104,7 @@ setup(
     # Note that this is a string of words separated by whitespace, not a list.
     keywords='error checking, data visualization, 3D', 
 
-    packages=find_packages(exclude=['contrib', 'docs', 'tests']),  # Required
+    packages=find_packages(exclude=['contrib', 'docs', 'SitchenisTests', 'Templates']),  # Required
 
     install_requires=[
 		'xlrd>=1.1.0',
