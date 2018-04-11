@@ -18,7 +18,7 @@ def getFileName():
     root = tk.Tk()
     root.lift()
     root.attributes('-topmost',True)
-    filename = askopenfilename(initialdir = cwd ,title = "Select a tree file and directory", filetypes = [("Excel","*.xlsx")])        #Ask user to pick files
+    filename = askopenfilename(initialdir = cwd ,title = "Select a tree file and directory", filetypes = [("Excel","*.xlsx"),("Excel","*.xlsm")])        #Ask user to pick files
     root.after_idle(root.attributes,'-topmost',False)
     root.withdraw()
     fileName = filename.rsplit('/')[-1] #Excludes path to file
