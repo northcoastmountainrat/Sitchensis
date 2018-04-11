@@ -200,11 +200,11 @@ scene.append_to_caption('           ')
 if mapType == "trunk map":
 	mapChoices = vp.menu(choices=['trunk map'], selected = 'trunk map',index = 0, bind=treeDisplay )
 elif mapType == "trunk and branch map":
-	mapChoices = vp.menu(choices=['trunk map', 'full map'], selected = 'full map',index = 0, bind=treeDisplay )
+	mapChoices = vp.menu(choices=['trunk map', 'full map'], selected = 'full map',index = 1, bind=treeDisplay )
 elif mapType == "trunk and segment map":
-	mapChoices = vp.menu(choices=['trunk map', 'segment map'], selected = 'segment map',index = 0, bind=treeDisplay )
+	mapChoices = vp.menu(choices=['trunk map', 'segment map'], selected = 'segment map',index = 1, bind=treeDisplay )
 elif mapType == "full map":
-	mapChoices = vp.menu(choices=['trunk map', 'segment map', 'full map'], selected = 'full map', index = 0, bind=treeDisplay )
+	mapChoices = vp.menu(choices=['trunk map', 'segment map', 'full map'], selected = 'full map', index = 2, bind=treeDisplay )
 scene.append_to_caption('                 ')              
 radBut = vp.radio(bind=labelButton, text='display labels') # text to right of button
 
