@@ -28,7 +28,7 @@ python-based program to error check and calculate geometry of  3D tree crown-map
   * Open an anaconda command prompt and activate your environemnt as detailed above
   * Type run_tree and enter
   * Browse to the folder with the tree file in it and click open
-  * Close the two scatterplot windows that appear after screening for errors
+  * Close the two scatterplot windows that appear after screening for errors (currently disabled)
   * Outputs are placed into new subfolder called "Sitchensis outputs"
   * Tree model is displayed in a browser window
   
