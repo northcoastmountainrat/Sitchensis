@@ -1,0 +1,3 @@
+[console_scripts]
+run_tree = sitchensis.MainBodyScript:main
+

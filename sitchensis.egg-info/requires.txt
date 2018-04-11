@@ -1,0 +1,7 @@
+xlrd>=1.1.0
+pandas>=0.22.0
+vpython>=7.4.3
+numpy>=1.13.3
+matplotlib>=2.1.0
+scipy>=0.19.1
+xlsxwriter>=1.0.2
