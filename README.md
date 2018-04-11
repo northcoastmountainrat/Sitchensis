@@ -18,7 +18,7 @@ python-based program to error check and calculate geometry of  3D tree crown-map
     if you want to call your environment myEnv then:  
     `conda create -n myEnv python=3.6`  
     when prompted to download/update packages enter  
-    `y`
+    `y`  
     if on a Mac you need a "framework build" of python, you can do this by running as an additional step:  
     `conda install python.app`  
 
