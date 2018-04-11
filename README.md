@@ -38,12 +38,12 @@ python-based program to error check and calculate geometry of  3D tree crown-map
 
 * Database configuration: I don't know what this means yet
 
-* How to run tests: 
-   To test that the code is configured properly and working upload the clean data file in the "SitchensisTests" folder called "Mothership_Clean.xlsx."  
-   Run the program as described above.  
-   If configured properly a folder with outputs will be created called "SitchensisOutputs." In it will be two log files.  
-   Windows of scatterplots should pop up for outlier scanning.  
-   Once these are closed, a browser window will pop up and render a 3D tree from the excel file. 
+* How to run tests:   
+   * To test that the code is configured properly and working upload the clean data file in the "SitchensisTests" folder called "Mothership_Clean.xlsx."  
+   * Run the program as described above.  
+   * If configured properly a folder with outputs will be created called "SitchensisOutputs." In it will be two log files.  
+   * Windows of scatterplots should pop up for outlier scanning.  
+   * Once these are closed, a browser window will pop up and render a 3D tree from the excel file. 
 
 ### Contribution guidelines ###
 
