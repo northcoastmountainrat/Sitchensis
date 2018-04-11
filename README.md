@@ -21,7 +21,7 @@ python-based program to error check and calculate geometry of  3D tree crown-map
   * Activate the environment  
     `activate myEnv`
   * Install the package to the environment
-   
+   `pip install git+https://github.com/northcoastmountainrat/Sitchensis`
 
 * How to run the program
   * Use the provided excel template to enter data. Save data into any directory.
@@ -29,9 +29,9 @@ python-based program to error check and calculate geometry of  3D tree crown-map
   * Type run_tree and enter
   * Browse to the folder with the tree file in it and click open
   * Close the two scatterplot windows that appear after screening for errors
-  * Tree model is displayed in a browser window
   * Outputs are placed into new subfolder called "Sitchensis outputs"
-
+  * Tree model is displayed in a browser window
+  
 * Dependencies: 
  - Python 3.x, xlrd, pandas 0.21.0 or greater, numpy, matplotlib, tkinter, sys, os, scipy, xlsxwriter, vpython, numbers, all .py files in the Sitchensis folder
  - Dependencies are automatically downloaded when the package is installed.
