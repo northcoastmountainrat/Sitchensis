@@ -11,15 +11,31 @@ python-based program to error check and calculate geometry of  3D tree crown-map
 
 ### How do I get set up? ###
 
-* At present this is just a script in python so you will need to intall a version of python with a lot of packages. I recommend the anaconda installation. 
+* This package will run with a current installation of conda or miniconda and python>=3.6
 
-* Configuration: I don't know what this means yet
+* Configuration: For the initial configuration
+- Install anaconda or miniconda
+- Open an anaconda command prompt
+- Create a new environment with the latest version of python: Ex: if you want to call your environment myEnv then
+  - conda create -n myenv python=3.6
+- Activate the environment
+  - activate myenv
+- Install the package to the environment
 
-* Dependencies: Python 3.x, xlrd, pandas 0.21.0 or greater, numpy, matplotlib, tkinter, sys, os, scipy, xlsxwriter, vpython, numbers, all .py files in the Sitchensis folder
+* How to run the program
+ - Use the provided excel template to enter data. Save data into any directory.
+ - Open an anaconda command prompt and activate your environemnt as detailed above
+ - Type run_tree and enter
+ - Browse to the folder with the tree file in it and click open
+ - Close the two scatterplot windows that appear after screening for errors
+ - Tree model is displayed in a browser window
+ - Outputs are placed into new subfolder called "Sitchensis outputs"
+
+* Dependencies: 
+ - Python 3.x, xlrd, pandas 0.21.0 or greater, numpy, matplotlib, tkinter, sys, os, scipy, xlsxwriter, vpython, numbers, all .py files in the Sitchensis folder
+ - Dependencies are automatically downloaded when the package is installed.
 
 * Database configuration: I don't know what this means yet
-
-* How to run: Use the provided excel template to enter data. Save data into any directory. Run the "MainBodyScript.py" to navigate to file in directory. Outputs are placed into new subfolder called "Sitchensis outputs"
 
 * How to run tests: To test that the code is configured properly and working upload the clean data file in the "Sitchensis_tests" folder called "Mothership.xlsx." Run the MainBodyScript.py and navigate to this file. If configured properly a folder with outputs will be created called "SitchensisOutputs." In it will be two log files. Windows of scatterplots should pop up for outlier scanning. Once these are closed, a browser window will pop up and render a 3D tree from the excel file. 
 
