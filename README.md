@@ -29,11 +29,11 @@ python-based program to error check and calculate geometry of  3D tree crown-map
     `conda activate myEnv`  
      On Mac or Linux:  
      `source activate myEnv`
-  * Install the package to the environment  
+  * Install the package to the environment (this may take a while) 
    `pip install git+https://github.com/northcoastmountainrat/Sitchensis`
 
 * Test your installation:
-  * Upload the data file in the "SitchensisTests" folder called "Mothership_Clean.xlsx"  
+  * Download the data file in the "SitchensisTests" folder called "Mothership_Clean.xlsx"  
   * Open an Anaconda command prompt  
   PC or Linux users enter  
   `run_tree`  
