@@ -1,1 +1,0 @@
-#How to use the *SITCHENSIS* tree template
