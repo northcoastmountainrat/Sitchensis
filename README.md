@@ -1,4 +1,4 @@
-# Sitchensis
+# _SITCHENSIS_
 python-based program to error check and calculate geometry of  3D tree crown-mapping data
 
 ### What is this repository for? ###
@@ -6,6 +6,10 @@ python-based program to error check and calculate geometry of  3D tree crown-map
 * This program will take 3D tree mapping data collected in the field and calculate whole-tree geometry. It will go through several steps along the way to first error check and visualize the data before actually calculating the final numbers. The data are imported from a single provided excel template for each tree. 
 
 * Version: 0.0.1
+
+### Where do I learn how to use it? ###
+
+ * This click on the Wiki tab above to see a complete set of instructions for using _SITCHENSIS_
 
 ### How do I get set up? ###
 
