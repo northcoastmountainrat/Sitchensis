@@ -9,7 +9,7 @@ python-based program to error check and calculate geometry of  3D tree crown-map
 
 ### Where do I learn how to use it? ###
 
- * This click on the Wiki tab above to see a complete set of instructions for using _SITCHENSIS_
+ * Click on the Wiki tab above to see a complete set of instructions for using _SITCHENSIS_
 
 ### How do I get set up? ###
 
