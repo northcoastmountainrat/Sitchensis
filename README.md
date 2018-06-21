@@ -1,5 +1,7 @@
-# _SITCHENSIS_
-python-based program to error check and calculate geometry of  3D tree crown-mapping data
+# _SITCHENSIS_  
+python-based program to error check and calculate geometry of  3D tree crown-mapping data  
+
+![Sitchensis steps](/images/HeaderImage.png)
 
 ### What is this repository for? ###
 
@@ -66,7 +68,9 @@ python-based program to error check and calculate geometry of  3D tree crown-map
   * Browse to the folder with the tree file in it and click open
   * Close the two scatterplot windows that appear after screening for errors (currently disabled).
   * Outputs are placed into new subfolder called "SitchensisOutputs"
-  * Tree model is displayed in a browser window
+  * Tree model is displayed in a browser window  
+  
+![Full tree](/images/FullTree.png)
   
 * Dependencies: 
   * Python 3.x, xlrd, pandas 0.21.0 or greater, numpy, matplotlib, tkinter, sys, os, scipy, xlsxwriter, vpython, numbers, all .py files in the Sitchensis folder
